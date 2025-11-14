@@ -118,10 +118,10 @@
 
         User0 {
             bindings = <
-&kp COLON  &kp F1  &kp F2  &kp F3  &kp F4  &kp F5                    &kp F6  &kp F7  &kp LG(TAB)  &kp LG(LC(LEFT_ARROW))  &kp LG(LC(RIGHT_ARROW))  &kp LC(UP)
-&trans     &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans       &trans                  &trans                   &trans
-&trans     &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans       &trans                  &trans                   &trans
-                   &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans       &trans
+&kp COLON  &kp F1  &kp F2        &kp F3        &kp F4        &kp F5                          &kp F6  &kp F7  &kp LG(TAB)  &kp LG(LC(LEFT_ARROW))  &kp LG(LC(RIGHT_ARROW))  &kp LC(UP)
+&kp TAB    &kp N1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5                    &trans  &trans  &trans       &trans                  &trans                   &trans
+&trans     &trans  &trans        &trans        &trans        &trans                          &trans  &trans  &trans       &trans                  &trans                   &trans
+                   &trans        &trans        &trans        &trans        &trans    &trans  &trans  &trans  &trans       &trans
             >;
 
             display-name = "User0";
