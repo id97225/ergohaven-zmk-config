@@ -36,6 +36,30 @@
         };
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        cmb1 {
+            bindings = <&kp RIGHT_GUI>;
+            key-positions = <8 9>;
+        };
+
+        CMB2 {
+            bindings = <&kp RIGHT_ALT>;
+            key-positions = <20 21>;
+        };
+
+        CMB3 {
+            bindings = <&kp LGUI>;
+            key-positions = <3 2>;
+        };
+
+        CMB4 {
+            bindings = <&kp LEFT_ALT>;
+            key-positions = <14 15>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
