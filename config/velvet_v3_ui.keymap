@@ -74,10 +74,10 @@
 
         adj {
             bindings = <
-&none  &none  &none   &none    &kp LEFT_ALT  &kp RIGHT_ALT                  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2      &bt BT_SEL 3  &bt BT_SEL 4  &bt BT_CLR
-&none  &none  &kp F5  &kp F6   &kp F7        &kp F8                         &out OUT_BLE  &kp C_VOL_DN  &kp K_MUTE        &kp C_VOL_UP  &none         &studio_unlock
-&none  &none  &kp F9  &kp F10  &kp F11       &kp F12                        &out OUT_USB  &kp K_PREV    &kp K_PLAY_PAUSE  &kp K_NEXT    &none         &none
-              &none   &none    &none         &none          &none    &none  &none         &none         &none             &none
+&none  &none  &none  &none  &kp LEFT_ALT     &kp RIGHT_ALT                         &none         &none           &mmv MOVE_UP    &kp LC(LEFT_ARROW)  &kp LC(RIGHT_ARROW)  &kp LC(UP_ARROW)
+&none  &none  &none  &none  &msc MOVE_Y(10)  &none                                 &kp LC(HOME)  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT     &kp LA(LEFT_ARROW)   &kp LA(RIGHT_ARROW)
+&none  &none  &none  &none  &none            &none                                 &kp LC(END)   &mmv MOVE_LEFT  &mmv MOVE_UP    &mmv MOVE_DOWN      &mmv MOVE_RIGHT      &none
+              &none  &none  &mkp MB3         &mkp MB1       &mkp MB2    &kp ENTER  &none         &none           &kp LG(TAB)     &kp LG(GRAVE)
             >;
 
             display-name = "Adjust";
