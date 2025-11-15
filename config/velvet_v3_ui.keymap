@@ -33,10 +33,13 @@
         };
 
         new_behavior: new_behavior {
-            compatible = "zmk,behavior-tap-dance";
-            label = "TD1";
-            #binding-cells = <0>;
-            bindings = <&none>;
+            compatible = "zmk,behavior-hold-tap";
+            label = "MT1";
+            bindings = <&none>, <&none>;
+
+            #binding-cells = <2>;
+            quick-tap-ms = <150>;
+            tapping-term-ms = <200>;
         };
 
         zip_auto_mouse: zip_auto_mouse {
