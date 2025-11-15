@@ -8,9 +8,9 @@
 #include <dt-bindings/zmk/outputs.h>
 #include <dt-bindings/zmk/pointing.h>
 
-&mt { quick-tap-ms = <150>; };
+&mt { quick-tap-ms = <190>; };
 
-&lt { quick-tap-ms = <150>; };
+&lt { quick-tap-ms = <190>; };
 
 / {
     behaviors {
