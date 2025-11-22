@@ -135,10 +135,10 @@
 
         scroll {
             bindings = <
-&trans  &trans  &trans  &trans  &trans    &trans                        &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans    &trans                        &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans    &trans                        &trans  &trans  &trans  &trans  &trans  &trans
-                &trans  &trans  &mkp MB3  &mkp MB1  &mkp MB2    &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
+                &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
             >;
 
             display-name = "Scroll";
@@ -146,10 +146,10 @@
 
         sniper {
             bindings = <
-&trans  &trans  &trans  &trans  &trans    &trans                        &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans    &trans                        &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans    &trans                        &trans  &trans  &trans  &trans  &trans  &trans
-                &trans  &trans  &mkp MB3  &mkp MB1  &mkp MB2    &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
+                &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
             >;
 
             display-name = "Sniper";
